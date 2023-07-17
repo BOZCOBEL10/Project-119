@@ -1,0 +1,31 @@
+body{
+ background: linear-gradient(45deg, #96c52a 0%, #ffe600 50%, #ffffff 100%);
+}
+
+h1{
+    color: rgb(255, 255, 255);
+}
+
+#show-sketch{
+    float: right;
+}
+
+p{
+    padding-top:10px;
+    font-size: 25px;
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+@keyframes rotate{
+    100% {
+        transform: rotate(45deg);
+    }
+}
+
+span{
+    font-size:20px;
+}
